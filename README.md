@@ -6,7 +6,7 @@ Odoo_Hackathon_AHVG
 
 ---
 
-## 🏆 Built for OODO Hackathon – 9th July 2025
+## 🏆 Built for OODO Hackathon – 12th July 2025
 
 This project was developed within **a limited time (9 AM – 5 PM)** during the **OODO Hackathon 2025**.  
 It was a result of excellent **team collaboration**, brainstorming, and problem-solving in a real-world simulation environment.
