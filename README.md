@@ -4,6 +4,8 @@ Odoo_Hackathon_AHVG
 
 **ReWear** is a web-based platform that promotes eco-friendly clothing exchange through a point-based system. It enables users to list pre-loved clothes, earn points, and redeem unique fashion items—all while contributing to reducing textile waste.
 
+This is the video link for visiting our Website - https://drive.google.com/drive/folders/1kCBhItHgqqyDHshFudB95kGSDJTIBomf
+
 ---
 
 ## 🏆 Built for OODO Hackathon – 12th July 2025
