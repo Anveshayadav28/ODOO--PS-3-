@@ -41,28 +41,33 @@ It was a result of excellent **team collaboration**, brainstorming, and problem-
 ## 📁 Folder Structure & Component Breakdown
 
 src/
-├── App.jsx # Main App with routes
-├── main.jsx # React app entry point
+├── App.jsx                  # Main component with route definitions
+├── main.jsx                 # Entry point of the React app
+│
 ├── contexts/
-│ └── AuthContext.jsx # Authentication logic
+│   └── AuthContext.jsx      # Manages user authentication state
+│
 ├── components/
-│ ├── Layout/
-│ │ ├── Header.jsx # Navigation bar at top
-│ │ └── Footer.jsx # Footer section
-│ ├── ProtectedRoute.jsx # Route guard for user dashboard
-│ └── AdminRoute.jsx # Route guard for admin dashboard
+│   ├── Layout/
+│   │   ├── Header.jsx       # Navigation bar shown on all pages
+│   │   └── Footer.jsx       # Footer at the bottom of every page
+│   ├── ProtectedRoute.jsx   # Restricts access to logged-in users
+│   └── AdminRoute.jsx       # Restricts access to admin-only routes
+│
 ├── pages/
-│ ├── Landing.jsx # Home page with hero, stats, featured items
-│ ├── Browse.jsx # Shows all listed items
-│ ├── Dashboard.jsx # User-specific dashboard
-│ ├── AddItem.jsx # Form to upload clothing items
-│ ├── ItemDetail.jsx # Detailed view of a single item
-│ └── Auth/
-│ ├── Login.jsx # User login form
-│ └── Signup.jsx # User signup form
-│ └── Admin/
-│ ├── AdminLogin.jsx # Admin login interface
-│ └── AdminDashboard.jsx# Admin control panel
+│   ├── Landing.jsx          # Home page with intro, featured items, testimonials
+│   ├── Browse.jsx           # Lists all available clothing items
+│   ├── ItemDetail.jsx       # Detailed view of a single item
+│   ├── Dashboard.jsx        # User dashboard with personal activity
+│   ├── AddItem.jsx          # Form to upload clothing items
+│
+│   ├── Auth/
+│   │   ├── Login.jsx        # User login form
+│   │   └── Signup.jsx       # User signup form
+│
+│   └── Admin/
+│       ├── AdminLogin.jsx   # Admin login screen
+│       └── AdminDashboard.jsx # Dashboard for admin controls
 
 
 ---
@@ -74,3 +79,10 @@ src/
    ```bash
    git clone https://github.com/yourusername/rewear.git
    cd rewear
+
+2. **Install Dependencies*
+   npm install
+
+3. **Start Development Server**
+   npm run dev
+   
